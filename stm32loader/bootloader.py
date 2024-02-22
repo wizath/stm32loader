@@ -327,7 +327,7 @@ class Stm32Bootloader:
         "L0": 128,
         # ST RM0444 section 38.2 Flash memory size data register
         "G0": 1024,
-        "WL": 1024,
+        "WL": 2048,
         # ST BlueNRG-2 data sheet: 128 pages of 8 * 64 * 4 bytes
         "NRG": 2048,
         # ST RM0433 section 4.2 FLASH main features
